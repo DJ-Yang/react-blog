@@ -1,4 +1,4 @@
-import { call, put } from 'redux-saga/effect';
+import { call, put } from 'redux-saga/effects';
 import { startLoading, finishLoading } from '../modules/loading';
 
 export const createRequestActionTypes = type => {
