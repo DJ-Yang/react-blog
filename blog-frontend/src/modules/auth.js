@@ -28,7 +28,7 @@ export const register = createAction(REGISTER, ({ username, password }) => ({
   username,
   password,
 }));
-export const login = createAction(LOGIN, ({ username, password}) => ({
+export const login = createAction(LOGIN, ({ username, password }) => ({
   username,
   password,
 }));
